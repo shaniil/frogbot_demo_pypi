@@ -67,7 +67,7 @@ jobs:
           # The password associated with the username required for authentication with the SMTP server.
           JF_SMTP_PASSWORD: ${{ secrets.JF_SMTP_PASSWORD }}
 
-          JF_EMAIL_RECEIVERS: omerz@jfrog.com
+          JF_EMAIL_RECEIVERS: shanil@jfrog.com
 
 
           ##########################################################################
@@ -120,7 +120,7 @@ jobs:
           # JF_MIN_SEVERITY: ""
           JF_GIT_PULL_REQUEST_ID: 44
           JF_GIT_REPO: frogbot_demo_pypi
-          JF_GIT_OWNER: omerzi
+          JF_GIT_OWNER: shaniil
           PLAT_P: ${{ secrets.PLAT_P }}
           JF_GIT_PROVIDER: github
         run: |
