@@ -42,7 +42,7 @@ jobs:
           
           # [Optional]
           # JFrog Project Key
-          # JF_PROJECT: ${{ vars.JF_PROJECT }}
+          JF_PROJECT: ${{ vars.JF_PROJECT }}
 
           # [Optional]
           # If the machine that runs Frogbot has no access to the internat, set the name of a remote repository
